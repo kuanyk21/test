@@ -13,7 +13,7 @@ class WarehouseMap : AppCompatActivity() {
         setContentView(R.layout.activity_warehouse_map)
 
         val actionBar = supportActionBar
-        actionBar!!.title = "Warehouse "
+        actionBar!!.title = "Warehouse Map"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
         popupBTN.setOnClickListener {
